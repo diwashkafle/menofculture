@@ -3,17 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: black;
+    height: full;
+    width: full;
+}
 #nav{
-    background-color: rgb(255, 255, 255);
-    height: 7.8%;
+    background-color: black;
+    color:whitesmoke;
+    height: 8.8%;
     width: 100vw;
     position: fixed;
     z-index: 50;
+
 }
 
 #nav > h1{
     font-size: 35px;
     margin:5px;
     text-align: center;
+}
+iframe{
+    margin-left: 70px;
+    padding:5px;
+    border: 3px white solid;
+}
+#audio{
+    position: absolute;
+    top:10px;
+    transition:  2s ease-in;
+}
+#audio > audio{
+    height: 40px;
+    width: 84px;
+  
+}
+
+#audio:hover:after{
+    content: "It gives chill";
+    position: relative;
+    top:-10px;
+    left:5px;
+    background-color: black;
+    color:white;
+  
 }
