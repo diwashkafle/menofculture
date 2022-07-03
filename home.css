@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color: rgb(255, 255, 255);
+    height: 7.8%;
+    width: 100vw;
+    position: fixed;
+    z-index: 50;
+}
+
+#nav > h1{
+    font-size: 35px;
+    margin:5px;
+    text-align: center;
+}
